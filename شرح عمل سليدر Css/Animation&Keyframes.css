@@ -1,0 +1,29 @@
+#div_1{
+    width: 100px;
+    height: 50px;
+    left: 40%;
+    top: 650px;
+    position: absolute;
+display:block;
+animation:ChangePlace 2s;
+
+}
+
+@keyframes ChangePlace{
+
+    from{
+        position: absolute;
+        left: 40%;
+        top: 0px;
+        display: block;
+    }
+    to{
+        display: block;
+        position: absolute;
+        left: 40%;
+        top: 650px;
+        
+        
+    }
+
+}

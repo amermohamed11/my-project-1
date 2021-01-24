@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+
+
+
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+font-family: 'Cairo', sans-serif;
+background-color: #333333;
+	line-height: 1.5;
+	
+	
+}
+a{
+	text-decoration: none
+}
+.text_primary{
+	color: #93cb52;
+
+
+}
+#text_primary{
+	color: #93cb52;
+
+
+}
+#navbar{
+	
+	justify-content: space-between;
+	display: flex;
+	top: 0px;
+	position: sticky;
+	background-color:rgb(51,51,51,0.4);
+    color: #FFFFFF;
+	z-index: 1;
+
+
+}
+
+
+#navbar ul{
+	display: flex;
+	list-style: none;
+	align-items: center;
+	
+}
+
+
+
+#navbar ul li a{
+	color: #FFFFFF;
+	margin: 0 0.50rem;
+padding: 0.75rem;	
+	
+}
+
+
+
+#navbar ul li :hover{
+	background-color: #93cb52;
+	border-radius: 25px;
+}
+#background-img{
+	background: #333333 
+	url("New folder/pexels-negative-space-97077.jpg") no-repeat
+	 center center /cover;
+	height: 100vh;
+	color: white;
+}
+#background-img-content{
+	
+display: flex;
+flex-direction: column;	
+text-align: center;
+justify-content: center;
+align-items: center;
+height: 100%;
+	/* overlay */
+	position: absolute;
+	top:71px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+background-color:  rgb(0,0,0,0.4);
+}
+#l-heading{
+	margin-bottom: 2rem;
+	line-height: 1.1;
+}
+
+/*
+section what we do
+*/
+
+#what{
+background-color: white;color: #333333;padding: 1.5rem;
+}
+
+#text-center{
+	text-align:center;
+	font-size: 3rem;
+}
+#what .container{
+
+	display: flex;
+	align-items: center ;
+	
+}
+#what .container .item{
+border-radius: 50%;
+background-color: #93cb52;
+padding: 1rem;
+}
+.article{
+text-align: center;
+	margin-left: 5rem;
+}
+.text-right{
+
+}
+
+#who{
+display: flex;
+color: white;
+}
+
+
+.list{
+	list-style: none;
+	
+}
+
+
+
+.who-img{
+flex: 1;
+	background: #333 url("New folder/تعبير-عن-الاتحاد-قوة2.jpg");
+	
+}
+
+
+.who-text{
+flex: 1; 	
+padding: 1rem;
+line-height: 1.7rem;	
+	
+}
+
+.who-text ul{
+	
+list-style: none;	
+	
+}
+
+
+.who-text p{
+	padding-bottom: 1.5rem;
+	padding-top: 1.5rem;
+}
+
+
+.who-text h3{
+	padding-bottom: 1.5rem;
+}
+
+
+.who-text li{
+
+	padding: 0.5rem 0.5rem;
+border-bottom: 1px dotted #444444
+}
+
+
+
+#clients{
+	background-color: white;
+	color: black;
+}
+
+
+#who2{
+padding-top: 1rem;
+font-size: 1.3rem;
+}
+
+
+.items{
+	display: flex;
+}
+
+
+
+
+
+.container{
+	
+	
+	
+	
+}
+
+/* Section: Clients */
+
+#clients {
+    background-color: #fff;
+}
+
+#clients .items {
+    display: flex;
+}
+
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+
+/* Section: Contact */
+
+#contact {
+    display: flex;
+	background-color:#93cb52;
+}
+
+#contact .google-maps,
+#contact .contact-form {
+    flex: 1;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+
+#main-footer{
+
+}
+
+
+
+
+.google-maps {
+    background: url('"New folder/gmaps.jpg"') no-repeat center center/cover;
+}
+
+
+#btn{
+	display: inline-block;
+	color: white;
+	background-color: #93cb52;
+	padding: 0.5rem 2.0rem;
+	border-radius: 5px;
+    border: none;
+	margin-top: 2rem;
+}
+#btn:hover{
+background-color: #7ab436;
+}
+
+
+

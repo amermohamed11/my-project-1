@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    function getpres(print_function) {
+        var points = document.getElementById("points").value;
+        var prec = (points * 100) / 200;
+        print_function(prec);
+    }
+
+    //cal this
+    function display_result(res) {
+        document.getElementById("prog").value = res;
+        var set_msg = "the result: " + res + "%";
+        document.getElementById("msg").innerHTML = set_msg;
+
+
+        window.onload = function() {
+            document.getElementById("cal").onclick = function() {
+                getpres(display_result);
+            }
+        }
+
+
+    }
+</script>
+
+<body>
+
+
+    <input type="number" id="points">
+    <input type="button" value="Click" id="cal">
+    <br>
+    <progress id="prog" max="100" value="0"></progress>
+
+    <div id="msg"></div>
+
+</body>
+
+</html>
